@@ -1,0 +1,249 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?7kkyc2');
+  src: url('../fonts/icomoon.eot?77kyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66666667px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 53.33333333px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 56.53333333px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: 'Microsoft YaHei', sans-serif;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.sn_layout {
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+}
+.sn_search {
+  width: 100%;
+  height: 0.9rem;
+  background: #fabc09;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+}
+.sn_search a {
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  top: 0;
+}
+.sn_search a.icon_category {
+  left: 0;
+  background: url("../images/search_left.png") no-repeat center / 0.36rem 0.6rem;
+}
+.sn_search a.icon_cart {
+  right: 0;
+  background: url("../images/search_right.png") no-repeat center / 0.36rem 0.6rem;
+}
+.sn_search form {
+  width: 100%;
+  padding: 0 0.9rem;
+}
+.sn_search form .icon_search {
+  font-family: 'icomoon';
+  color: #fff;
+  font-size: 0.3rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.3rem;
+}
+.sn_search form input {
+  width: 100%;
+  height: 0.6rem;
+  margin-top: 15px;
+  border: none;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 0.06rem;
+  font-size: 0.24rem;
+  outline: none;
+  padding-left: 0.5rem;
+}
+.sn_banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.sn_banner ul {
+  list-style: none;
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+}
+.sn_banner ul:first-child {
+  width: 1000%;
+}
+.sn_banner ul:first-child li {
+  width: 10%;
+  float: left;
+}
+.sn_banner ul:first-child li a {
+  display: block;
+  width: 100%;
+}
+.sn_banner ul:first-child li a img {
+  display: block;
+  width: 100%;
+}
+.sn_banner ul:last-child {
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.2rem;
+}
+.sn_banner ul:last-child li {
+  width: 0.12rem;
+  height: 0.12rem;
+  margin-left: 0.12rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+}
+.sn_banner ul:last-child li.now {
+  background: #fabc09;
+}
+.sn_nav {
+  width: 100%;
+}
+.sn_nav ul {
+  width: 100%;
+  list-style: none;
+  padding: 0.2rem 0;
+}
+.sn_nav ul li {
+  width: 20%;
+  float: left;
+}
+.sn_nav ul li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.sn_nav ul li a img {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 auto;
+}
+.sn_nav ul li a p {
+  font-size: 0.24rem;
+  padding: 0.12rem 0;
+  text-align: center;
+  color: #666;
+}
+.sn_tabs {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.sn_tabs ul {
+  width: 100%;
+  list-style: none;
+}
+.sn_tabs ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.sn_tabs ul li a {
+  text-decoration: none;
+}
+.sn_tabs ul li a span {
+  font-size: 0.4rem;
+  color: #333;
+  margin-top: 0.1rem;
+}
+.sn_tabs ul li a p {
+  color: #666;
+  font-size: 0.24rem;
+}
